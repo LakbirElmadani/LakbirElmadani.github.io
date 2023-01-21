@@ -1,67 +1,45 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript">
-        var canvas;
-        var ctx;
-        var sinBtn;
-        var cosBtn;
-        var clearBtn;
-
-        function drawSin() {
-            ctx.beginPath();
-            ctx.moveTo(0, canvas.height/2);
-            for (var x = 0; x < canvas.width; x++) {
-                ctx.lineTo(x, canvas.height/2 - Math.sin(x/10)*canvas.height/2);
-            }
-            ctx.stroke();
-        }
-
-        function drawCos() {
-            ctx.beginPath();
-            ctx.moveTo(0, canvas.height/2);
-            for (var x = 0; x < canvas.width; x++) {
-                ctx.lineTo(x, canvas.height/2 - Math.cos(x/10)*canvas.height/2);
-            }
-            ctx.stroke();
-        }
-
-        function drawAxes() {
-            ctx.strokeStyle = "black";
-            ctx.beginPath();
-            ctx.moveTo(0, canvas.height/2);
-            ctx.lineTo(canvas.width, canvas.height/2);
-            ctx.moveTo(canvas.width/2, 0);
-            ctx.lineTo(canvas.width/2, canvas.height);
-            ctx.stroke();
-        }
-
-        function clearCanvas() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            drawAxes();
-        }
-
-        function init() {
-            canvas = document.getElementById("graph");
-            ctx = canvas.getContext("2d");
-            sinBtn = document.getElementById("sinBtn");
-            cosBtn = document.getElementById("cosBtn");
-            clearBtn = document.getElementById("clearBtn");
-            sinBtn.addEventListener("click", drawSin);
-            cosBtn.addEventListener("click", drawCos);
-            clearBtn.addEventListener("click", clearCanvas);
-            drawAxes();
-        }
-
-        window.onload = init;
-    </script>
+  <title>Mon projet sur GitHub</title>
 </head>
 <body>
-    <canvas id="graph" width="500" height="500"></canvas>
-    <br>
-    <button id="sinBtn">Tracer Sinus</button>
-    <button id="cosBtn">Tracer Cosinus</button>
-    <button id="clearBtn">Effacer</button>
+  <nav>
+    <ul>
+      <li><a href="#about">A propos</a></li>
+      <li><a href="#features">Fonctionnalités</a></li>
+      <li><a href="#contributors">Contributeurs</a></li>
+      <li><a href="#license">Licence</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h1>A propos de mon projet</h1>
+      <p>Description de mon projet</p>
+    </section>
+    <section id="features">
+      <h1>Fonctionnalités</h1>
+      <ul>
+        <li>Fonctionnalité 1</li>
+        <li>Fonctionnalité 2</li>
+        <li>Fonctionnalité 3</li>
+      </ul>
+    </section>
+    <section id="contributors">
+      <h1>Contributeurs</h1>
+      <ul>
+        <li>Contributeur 1</li>
+        <li>Contributeur 2</li>
+        <li>Contributeur 3</li>
+      </ul>
+    </section>
+    <section id="license">
+      <h1>Licence</h1>
+      <p>Informations sur la licence utilisée pour mon projet</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © [Année] [Nom de l'auteur]</p>
+  </footer>
 </body>
 </html>
