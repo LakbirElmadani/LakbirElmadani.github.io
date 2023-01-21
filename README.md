@@ -62,5 +62,10 @@
     <button id="sinBtn">Tracer Sinus</button>
     <button id="cosBtn">Tracer Cosinus</button>
     <button id="clearBtn">Effacer</button>
+    
+      <footer>
+        <p>Copyright © [2023] [Lakbir Elmadani]</p>
+      </footer>
 </body>
 </html>
+
