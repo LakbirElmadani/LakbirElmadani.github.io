@@ -31,7 +31,13 @@ section {
   margin: 50px;
 }
 
+.image {
+    width: 400px;
+    height: 400px;
+}
+
    </style>
+   
   <body>
     <header>
       <nav>
@@ -46,14 +52,35 @@ section {
       <h1>A propos de moi</h1>
       <p>Je suis Lakbir Elmadani, un étudiant en génie électrique. Je suis très motivé pour apprendre de nouvelles choses et relever des défis dans ma carrière en tant qu'étudiant ingénieur. Mon ambition est de devenir un ingénieur électrique expérimenté et de contribuer à résoudre les problèmes énergétiques mondiaux à l'avenir. Je suis curieux de nature et j'aime explorer de nouvelles technologies et concepts. Actuellement, je suis à la recherche d'un stage professionnel pour acquérir de l'expérience pratique et développer mes compétences en tant qu'étudiant ingénieur. Je suis convaincu que mes connaissances théoriques et mes compétences techniques me permettront de relever les défis de l'industrie de l'énergie dans l'avenir.</p>
     </section>
-    <section id="services">
-      <h1>Mes services</h1>
-      <ul>
-        <li>Installation d'équipements électriques</li>
-        <li>Réparation d'équipements électriques</li>
-        <li>Maintenance d'équipements électriques</li>
-      </ul>
-    </section>
+   <section id="services">
+  <h1>Mes projets</h1>
+  <ul>
+    <li>
+      <div>
+        <h2>Stage d'ingénieur:OCP (Office Chérifienne des Phosphates)</h2>
+        <p>-Étude du système supervision d'un banc d'essai pour les moteurs  électriques triphase
+           -Diminuer le nombre d'interventions de l'ouvrier et identification des défauts probables, en utilisant l'analyser spectral      
+           -Faire une étude techno-économique détaillée sur les solutions dans les câbles et les protocoles de communication et le choix de variateurs de vitesse et des capteurs nécessaires. 07/2022 - 09/2022, Khouribga</p>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/OCP_Group.svg" class="image">
+      </div>
+    </li>
+    <li>
+      <div>
+        <h2>Stage d'initiation professionnelle:Coopérative Halib Rich</h2>
+        <p>Description de mon stage d'initiation professionnelle chez Coopérative Halib Rich, où j'ai travaillé sur des projets liés à la production de lait.</p>
+        <img src="https://media.licdn.com/dms/image/C4E16AQGNrd5YY6QWng/profile-displaybackgroundimage-shrink_350_1400/0/1657199515466?e=1680134400&v=beta&t=aU3sjMS6PoVFsnxht5zf06nJp2cCcR0Q8uEL2q9L6Og" class="image">
+	  </div>
+    </li>
+    <li>
+      <div>
+        <h2>TIPE:Optimiser la puissance produite par une hydrolienne</h2>
+        <p>Description de mon projet de fin d'étude sur l'optimisation de la puissance produite par une hydrolienne.</p>
+           <img src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1520,quality=50,format=auto/sources/images/glossaire/HydroliennePaimpol_EDF.jpg" class="image">
+	  </div>
+    </li>
+  </ul>
+</section>
+
     <section id="contact">
       <h1>Contactez-moi</h1>
       <form>
