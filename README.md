@@ -93,7 +93,18 @@ section {
       <div>
         <h2>Stage d'initiation professionnelle:Coopérative Halib Rich</h2>
         <p>-Étude détaillée sur les appareillages de protections pour l'installation de coopérative</p>
-         <p>-Vérifier la sélectivité et la sensibilité des appareille de protection.</p>  <p>08/2021 - 09/2021, Er-Rich</p>
+         <p>-Vérifier la sélectivité et la sensibilité des appareille de protection.</p> 
+         <p>Lors de ce stage, j'ai étudié les différents types d'appareillages de protection disponibles pour</p>
+         <p>les installations électriques de la coopérative Halib Rich,en me concentrant sur les disjoncteurs,</p>
+         <p> les fusibles et les relais de surintensité. J'ai évalué les caractéristiques de ces appareils et j'ai choisi ceux </p>
+         <p>qui conviennent le mieux pour protéger les différents équipements de la coopérative,</p>
+         <P>en prenant en compte les risques potentiels tels que les courts-circuits et les surcharges.</p>
+         <p>J'ai également effectué une analyse détaillée de la sélectivité et de la sensibilité des appareils de protection choisis.</p>
+		 <P>La sélectivité est la capacité des appareils de protection à isoler uniquement la zone défectueuse de l'installation,</p>
+		 <p>sans perturber le reste de l'installation. La sensibilité est la capacité des appareils de protection à réagir rapidement </p>
+		 <p>et efficacement aux défauts électriques. J'ai vérifié que les appareils de protection choisis répondent aux exigences de sélectivité </p>
+		 <p>et de sensibilité requises pour protéger efficacement les équipements de la coopérative</p>
+		 <p>08/2021 - 09/2021, Er-Rich</p>
         <img src="https://media.licdn.com/dms/image/C4E16AQGNrd5YY6QWng/profile-displaybackgroundimage-shrink_350_1400/0/1657199515466?e=1680134400&v=beta&t=aU3sjMS6PoVFsnxht5zf06nJp2cCcR0Q8uEL2q9L6Og" class="image">
 	  </div>
     </li>
@@ -101,6 +112,9 @@ section {
       <div>
         <h2>TIPE:Optimiser la puissance produite par une hydrolienne</h2>
         <p>-Implimenter MPPT pour extraire la plus possible de puissance.</p>
+		<p>J'ai choisi d'utiliser un MPPT pour maximiser la production d'énergie de l'hydrolienne en suivant </p>
+		<p>le point de puissance maximale à différentes vitesse de vent. L'intérêt d'utiliser un MPPT est qu'il permet</p>
+		<p>d'optimiser l'utilisation de l'énergie produite par l'hydrolienne en adaptant la tension de sortie à la vitesse de vent.</p>
            <img src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1520,quality=50,format=auto/sources/images/glossaire/HydroliennePaimpol_EDF.jpg" class="image">
 	  </div>
     </li>
