@@ -136,9 +136,9 @@ section {
 		<p>comme les coûts élevés des batteries, la faible autonomie et les infrastructures de recharge insuffisantes.</p> 
 		<p>J'ai également comparé les avantages et les inconvénients des voitures électriques et des voitures diesel en</p>  
 		<p>termes de performance, d'empreinte carbone et de coûts d'exploitation. J'ai ensuite utilisé des outils de modélisation</p> 
-         <p> et de simulation pour analyser et modéliser les composants de la transmission électrique (drivetrain) d'une voiture électrique,</p> 
-		  <p>tels que le moteur électrique, l'inverseur de fréquence et la transmission. J'ai simulé les performances de ces composants sous </p> 
-		  <p>différentes conditions de conduite pour évaluer leur efficacité énergétique.</p> 
+         <p> et de simulation pour analyser et modéliser les composants de la transmission électrique (drivetrain) ,</p> 
+		  <p>d'une voiture électrique tels que le moteur électrique, l'inverseur de fréquence et la transmission. </p> 
+		  <p> J'ai simulé les performances de ces composants sous différentes conditions de conduite pour évaluer leur efficacité énergétique.</p> 
 		 , <p>2022 EHTP</p>
            <img src="https://substance.etsmtl.ca//wp-content/uploads/2015/09/schema-THSeAF1.jpg" class="image">
 	  </div>
