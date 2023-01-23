@@ -109,15 +109,15 @@ section {
 
     <section id="contact">
       <h1>Contactez-moi</h1>
-      <form>
-        <label for="name">Nom:</label>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br>
-        <input type="submit" value="Envoyer">
-      </form>
+     <form action="mailto:lmadanilkbir7@gmail.com" method="post" enctype="text/plain">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom"><br><br>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message"></textarea><br><br>
+      <input type="submit" value="Envoyer">
+     </form>
     </section>
  <script>
         // Récupération du bouton
