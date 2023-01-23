@@ -130,6 +130,7 @@ section {
 		<p>fonctionnalités de l'objet connecté, comme l'allumer ou éteindre.</p> <p>2022 EHTP</p>
            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/172492114/original/1863471e3f08f3560c27b1572f1254412d0c933d/do-iot-based-arduino-esp8266-esp32-and-nodemcu-projects.png" class="image">
 	  </div>
+	 <div>
 	  <h2>Modélisation de la partie électrique de voiture électrique</h2>
         <p>Dans ce projet, j'ai étudié les problèmes qui freinent l'électrification du secteur automobile dans le monde, </p> 
 		<p>comme les coûts élevés des batteries, la faible autonomie et les infrastructures de recharge insuffisantes.</p> 
