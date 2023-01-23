@@ -32,8 +32,8 @@ section {
 }
 
 .image {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
 }
 
    </style>
@@ -58,23 +58,25 @@ section {
     <li>
       <div>
         <h2>Stage d'ingénieur:OCP (Office Chérifienne des Phosphates)</h2>
-        <p>-Étude du système supervision d'un banc d'essai pour les moteurs  électriques triphase
-           -Diminuer le nombre d'interventions de l'ouvrier et identification des défauts probables, en utilisant l'analyser spectral      
-           -Faire une étude techno-économique détaillée sur les solutions dans les câbles et les protocoles de communication et le choix de variateurs de vitesse et des capteurs nécessaires. 07/2022 - 09/2022, Khouribga</p>
+        <p>-Étude du système supervision d'un banc d'essai pour les moteurs  électriques triphase</p>
+          <p> -Diminuer le nombre d'interventions de l'ouvrier et identification des défauts probables, en utilisant l'analyser spectral</p>      
+           <p>-Faire une étude techno-économique détaillée sur les solutions dans les câbles et les protocoles de communication et le choix de variateurs de vitesse et des capteurs nécessaires.</p> 
+		   <p>                                                                                                               07/2022 - 09/2022, Khouribga</p>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/OCP_Group.svg" class="image">
       </div>
     </li>
     <li>
       <div>
         <h2>Stage d'initiation professionnelle:Coopérative Halib Rich</h2>
-        <p>Description de mon stage d'initiation professionnelle chez Coopérative Halib Rich, où j'ai travaillé sur des projets liés à la production de lait.</p>
+        <p>-Étude détaillée sur les appareillages de protections pour l'installation de coopérative</p>
+         <p>-Vérifier la sélectivité et la sensibilité des appareille de protection.</p>  <p>08/2021 - 09/2021, Er-Rich</p>
         <img src="https://media.licdn.com/dms/image/C4E16AQGNrd5YY6QWng/profile-displaybackgroundimage-shrink_350_1400/0/1657199515466?e=1680134400&v=beta&t=aU3sjMS6PoVFsnxht5zf06nJp2cCcR0Q8uEL2q9L6Og" class="image">
 	  </div>
     </li>
     <li>
       <div>
         <h2>TIPE:Optimiser la puissance produite par une hydrolienne</h2>
-        <p>Description de mon projet de fin d'étude sur l'optimisation de la puissance produite par une hydrolienne.</p>
+        <p>-Implimenter MPPT pour extraire la plus possible de puissance.</p>
            <img src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1520,quality=50,format=auto/sources/images/glossaire/HydroliennePaimpol_EDF.jpg" class="image">
 	  </div>
     </li>
