@@ -138,6 +138,7 @@ section {
          <p> et de simulation pour analyser et modéliser les composants de la transmission électrique (drivetrain) d'une voiture électrique,</p> 
 		  <p>tels que le moteur électrique, l'inverseur de fréquence et la transmission. J'ai simulé les performances de ces composants sous </p> 
 		  <p>différentes conditions de conduite pour évaluer leur efficacité énergétique.</p> 
+		 , <p>2022 EHTP</p>
            <img src="https://substance.etsmtl.ca//wp-content/uploads/2015/09/schema-THSeAF1.jpg" class="image">
 	  </div>
     </li>
