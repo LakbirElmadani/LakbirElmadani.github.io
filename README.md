@@ -36,14 +36,38 @@ section {
     height: 200px;
 }
 
+        body {
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* css pour le mode sombre */
+        .dark-mode {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* css pour le bouton */
+        .dark-mode-toggle {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            cursor: pointer;
+        }
+
    </style>
    
   <body>
+   <button class="dark-mode-toggle">Basculer en mode sombre</button>
     <header>
       <nav>
         <ul>
           <li><a href="#about">A propos</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#services">Projets</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -95,7 +119,26 @@ section {
         <input type="submit" value="Envoyer">
       </form>
     </section>
+ <script>
+        // Récupération du bouton
+        const toggleBtn = document.querySelector('.dark-mode-toggle');
 
+        // Récupération du body
+        const body = document.querySelector('body');
+
+        // Ajout d'un écouteur d'événement sur le bouton
+        toggleBtn.addEventListener('click', function() {
+            // Inversion de la classe dark-mode sur le body
+            body.classList.toggle('dark-mode');
+
+            // Mise à jour du texte du bouton
+            if (body.classList.contains('dark-mode')) {
+                toggleBtn.innerHTML = 'Basculer en mode clair';
+            } else {
+                toggleBtn.innerHTML = 'Basculer en mode sombre';
+            }
+        });
+    </script>
   </body>
 
 
