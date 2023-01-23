@@ -32,8 +32,8 @@ section {
 }
 
 .image {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 }
 
         body {
@@ -115,6 +115,7 @@ section {
 		<p>J'ai choisi d'utiliser un MPPT pour maximiser la production d'énergie de l'hydrolienne en suivant </p>
 		<p>le point de puissance maximale à différentes vitesse de vent. L'intérêt d'utiliser un MPPT est qu'il permet</p>
 		<p>d'optimiser l'utilisation de l'énergie produite par l'hydrolienne en adaptant la tension de sortie à la vitesse de vent.</p>
+		       <p>05/2020 CPGE-SETTAT</p>
            <img src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1520,quality=50,format=auto/sources/images/glossaire/HydroliennePaimpol_EDF.jpg" class="image">
 	  </div>
 	  <li>
@@ -123,10 +124,10 @@ section {
         <p>Dans ce projet, j'ai développé une application mobile APK pour contrôler des objets connectés via une ESP8266,</p>
 		<p>un module WiFi populaire utilisé pour les projets IoT. J'ai utilisé Firebase, une plateforme de développement</p>
 		<p>d'applications mobiles de Google, pour stocker et récupérer les données de l'objet connecté. J'ai utilisé MQTT, </p>
-		<p>un protocole de communication IoT léger, pour envoyer et recevoir des commandes entre l'application mobile et l'ESP8266.</p>
-        <p>J'ai configuré l'ESP8266 pour se connecter au réseau WiFi et pour communiquer avec Firebase via MQTT. </p>
-		<p>J'ai également développé des fonctionnalités dans l'application APK pour contrôler les différentes fonctionnalités de l'objet </p>
-		<p>connecté, comme l'allumer ou éteindre.</p>
+		<p>un protocole de communication IoT léger, pour envoyer et recevoir des commandes entre l'application mobile </p>
+        <p>et l'ESP8266.J'ai configuré l'ESP8266 pour se connecter au réseau WiFi et pour communiquer avec Firebase via MQTT. </p>
+		<p>J'ai également développé des fonctionnalités dans l'application APK pour contrôler les différentes  </p>
+		<p>fonctionnalités de l'objet connecté, comme l'allumer ou éteindre.</p> <p>2022 EHTP</p>
            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/172492114/original/1863471e3f08f3560c27b1572f1254412d0c933d/do-iot-based-arduino-esp8266-esp32-and-nodemcu-projects.png" class="image">
 	  </div>
     </li>
