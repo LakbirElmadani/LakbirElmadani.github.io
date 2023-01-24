@@ -68,8 +68,8 @@ margin-right: auto;
 }
 
 #icon {
-    width: 20;
-    height:20;
+    width: 10%;
+    height:5%;
 }
  p {
       font-family: Bell MT;
