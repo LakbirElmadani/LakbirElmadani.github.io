@@ -32,8 +32,11 @@ section {
 }
 
 .image {
-    width: 400px;
-    height: 300px;
+width: 400px;
+height: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
         body {
