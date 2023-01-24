@@ -72,7 +72,7 @@ margin-right: auto;
     height:10%;
 }
  p {
-      font-family: Algerian;
+      font-family: Eras Bold ITC;
       font-size: 22px;
       color: blue;
     }
