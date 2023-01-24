@@ -68,8 +68,8 @@ margin-right: auto;
 }
 
 #icon {
-    width:0.5%;
-    height:0.5%;
+    width:5%;
+    height:1%;
 }
 
    </style>
