@@ -68,8 +68,8 @@ margin-right: auto;
 }
 
 #icon {
-    width: 20;
-    height:20;
+    width: 1%;
+    height:5%;
 }
  p {
       font-family: Algerian;
