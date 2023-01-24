@@ -68,11 +68,11 @@ margin-right: auto;
 }
 
 #icon {
-    width: 10%;
-    height:5%;
+    width: 20;
+    height:20;
 }
  p {
-      font-family: Bell MT;
+      font-family: Algerian;
       font-size: 22px;
       color: blue;
     }
