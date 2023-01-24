@@ -67,10 +67,17 @@ margin-right: auto;
   text-align: center;
 }
 
+#icon {
+    width: 50;
+    height:50;
+}
+
    </style>
    
   <body>
-   <button class="dark-mode-toggle">Basculer en mode sombre</button>
+   <button id="dark-mode-btn">
+  <img src="https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_moon-512.png" id="icon" alt="Dark mode toggle icon">
+</button>
     <header>
       <nav>
         <ul>
@@ -168,24 +175,20 @@ margin-right: auto;
      </form>
     </section>
  <script>
-        // Récupération du bouton
-        const toggleBtn = document.querySelector('.dark-mode-toggle');
+        let darkMode = false;
+  const button = document.querySelector("#dark-mode-btn");
+  const icon = document.querySelector("#icon");
 
-        // Récupération du body
-        const body = document.querySelector('body');
-
-        // Ajout d'un écouteur d'événement sur le bouton
-        toggleBtn.addEventListener('click', function() {
-            // Inversion de la classe dark-mode sur le body
-            body.classList.toggle('dark-mode');
-
-            // Mise à jour du texte du bouton
-            if (body.classList.contains('dark-mode')) {
-                toggleBtn.innerHTML = 'Basculer en mode clair';
-            } else {
-                toggleBtn.innerHTML = 'Basculer en mode sombre';
-            }
-        });
+  button.addEventListener("click", () => {
+    darkMode = !darkMode;
+    if (darkMode) {
+      document.body.classList.add("dark-mode");
+      icon.src = "https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_sun-512.png";
+    } else {
+      document.body.classList.remove("dark-mode");
+      icon.src = "https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_moon-512.png";
+    }
+  });
     </script>
 	 <footer>
       <p>Copyright © 2023 Lakbir Elmadani</p>
