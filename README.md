@@ -58,6 +58,11 @@ section {
             border: none;
             cursor: pointer;
         }
+     footer {
+  background-color: #FFFF00; /* couleur jaune */
+  padding: 10px;
+  text-align: center;
+}
 
    </style>
    
@@ -179,6 +184,9 @@ section {
             }
         });
     </script>
+	 <footer>
+      <p>Copyright © 2023 Lakbir Elmadani</p>
+    </footer>
   </body>
 
 
