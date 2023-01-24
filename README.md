@@ -68,10 +68,14 @@ margin-right: auto;
 }
 
 #icon {
-    width:5%;
-    height:1%;
+    width: 20;
+    height:20;
 }
-
+ p {
+      font-family: Bell MT;
+      font-size: 22px;
+      color: blue;
+    }
    </style>
    
   <body>
