@@ -68,7 +68,7 @@ margin-right: auto;
 }
 
 #icon {
-    width:5%;
+    width:1%;
     height:5%;
 }
 
