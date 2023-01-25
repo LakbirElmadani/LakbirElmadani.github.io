@@ -69,8 +69,8 @@ margin-right: auto;
 }
 
 #icon {
-    width: 20;
-    height:20;
+    width: 5%;
+    height:2%;
 }
  p {
       font-family: Papyrus;
