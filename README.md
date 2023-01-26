@@ -70,8 +70,8 @@ margin-right: auto;
 }
 
 #icon {
-    width: 20;
-    height:20;
+    width: 4%;
+    height:3%;
 }
  p {
       font-family: Papyrus;
