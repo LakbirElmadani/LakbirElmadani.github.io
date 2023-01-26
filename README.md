@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles.css">
 	 <link rel="icon" type="image/png" href="https://media.licdn.com/dms/image/D4E03AQHBx7UuGxxiUw/profile-displayphoto-shrink_400_400/0/1669068581473?e=1680134400&v=beta&t=U5Kq6ldmngFnaTwSFH_I4D8XWeu0YeuuBSm68H0TIOU">
   </head>
+  </head>
   <style>
    /* CSS */
 body {
@@ -69,8 +70,8 @@ margin-right: auto;
 }
 
 #icon {
-    width: 5%;
-    height:2%;
+    width: 20;
+    height:20;
 }
  p {
       font-family: Papyrus;
