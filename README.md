@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles.css">
 	 <link rel="icon" type="image/png" href="https://media.licdn.com/dms/image/D4E03AQHBx7UuGxxiUw/profile-displayphoto-shrink_400_400/0/1669068581473?e=1680134400&v=beta&t=U5Kq6ldmngFnaTwSFH_I4D8XWeu0YeuuBSm68H0TIOU">
   </head>
+  </head>
   <style>
    /* CSS */
 body {
@@ -69,17 +70,47 @@ margin-right: auto;
 }
 
 #icon {
-    width: 4%;
-    height:3%;
+    width: 20;
+    height:20;
 }
  p {
       font-family: Papyrus;
       font-size: 22px;
       color: blue;
     }
+	
+	   /* Add some styling for the button */
+    #myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it stays on top */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: red; /* Set a background color */
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    /* Add animation for the button */
+    #myBtn.follow {
+      animation: follow 0.5s ease-out;
+    }
+
+    /* Keyframe animation */
+    @keyframes follow {
+      from {bottom: 20px; right: 30px;}
+      to {bottom: 50px; right: 50px;}
+    }
+	
+	
    </style>
    
   <body>
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
    <button id="dark-mode-btn">
   <img src="https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_moon-512.png" id="icon" alt="Dark mode toggle icon">
 </button>
@@ -194,6 +225,24 @@ margin-right: auto;
       icon.src = "https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_moon-512.png";
     }
   });
+     // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+        document.getElementById("myBtn").classList.add("follow"); // add the "follow" class
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+        document.getElementById("myBtn").classList.remove("follow"); // remove the "follow" class
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
     </script>
 	 <footer>
       <p>Copyright © 2023 Lakbir Elmadani</p>
