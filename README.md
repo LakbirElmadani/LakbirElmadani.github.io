@@ -109,9 +109,9 @@ margin-right: auto;
     }
 	
 	.clock {
-  width: 250px;
-  height: 250px;
-  border-radius: 25%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   border: 20px solid #333;
   margin: 50px auto;
   position: relative;
@@ -238,6 +238,17 @@ margin-right: auto;
 		  <p> J'ai simulé les performances de ces composants sous différentes conditions de conduite pour évaluer leur efficacité énergétique.</p> 
 		 , <p>2022 EHTP</p>
            <img src="https://substance.etsmtl.ca//wp-content/uploads/2015/09/schema-THSeAF1.jpg" class="image">
+	  </div>
+	  	 <div>
+	  <h2>Optimisation de la performance de la machine asynchrone via la commande vectorielle</h2>
+        <p>Dans ce projet, j'ai étudié la commande de machine asynchrone en utilisant un onduleur autonome. Tout d'abord, j'ai effectué la modélisation de la machine asynchrone en régime transitoire, ce qui m'a permis de comprendre les caractéristiques dynamiques de la machine. J'ai utilisé des techniques de simulation pour visualiser les différents comportements de la machine en fonction de différents paramètres.
+
+Ensuite, j'ai implémenté la commande vectorielle pour commander la machine asynchrone. La commande vectorielle est une méthode de commande de moteur qui permet d'optimiser les performances de la machine en utilisant des algorithmes de contrôle avancés. Cette technique permet de contrôler la vitesse et le couple du moteur en temps réel, ce qui est essentiel pour garantir une performance optimale de la machine.
+
+L'implémentation de la commande vectorielle a nécessité une compréhension approfondie de la théorie de la commande de moteur et des algorithmes de contrôle avancés. J'ai utilisé des outils tels que Matlab pour développer et tester les algorithmes de contrôle. Les résultats ont montré une amélioration significative des performances de la machine, en termes de précision de vitesse et de couple.
+
+En conclusion, ce projet a été très enrichissant pour moi en termes de développement de compétences en modélisation et en commande de machine. J'ai acquis une connaissance approfondie de la machine asynchrone et des différentes techniques de commande disponibles. Je suis fier des résultats obtenus et je suis convaincu que ces connaissances seront utiles pour mes futurs projets dans ce domaine.</p>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Vector_control_three-phase_AC-Motor_fr.svg" class="image">
 	  </div>
     </li>
     </li>
