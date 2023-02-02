@@ -115,6 +115,8 @@ margin-right: auto;
   border: 20px solid #333;
   margin: 50px auto;
   position: relative;
+  left: 400;
+  top: 0;
   padding: 20px;
   box-shadow: 
     0 0 0 4px #fff, 
