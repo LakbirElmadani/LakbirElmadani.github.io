@@ -1,10 +1,12 @@
 
 <html>
   <head>
+   <meta charset="utf-8">
     <title>Lakbir Elmadani</title>
     <link rel="stylesheet" href="styles.css">
 	 <link rel="icon" type="image/png" href="https://media.licdn.com/dms/image/D4E03AQHBx7UuGxxiUw/profile-displayphoto-shrink_400_400/0/1669068581473?e=1680134400&v=beta&t=U5Kq6ldmngFnaTwSFH_I4D8XWeu0YeuuBSm68H0TIOU">
-  
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+
   </head>
   <style>
    /* CSS */
@@ -106,7 +108,40 @@ margin-right: auto;
       to {bottom: 50px; right: 50px;}
     }
 	
-	
+	.clock {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 20px solid #333;
+  margin: 50px auto;
+  position: relative;
+  padding: 20px;
+  box-shadow: 
+    0 0 0 4px #fff, 
+    inset 0 0 0 3px #999,
+    inset 0 0 10px black,
+    0 0 10px rgba(0,0,0,0.2); 
+}
+
+.clock-face {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateY(-3px); /* fix for safari */
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: #333;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
    </style>
    
   <body>
@@ -123,6 +158,15 @@ margin-right: auto;
         </ul>
       </nav>
     </header>
+	<!-- Add the clock element -->
+<div class="clock">
+  <div class="clock-face">
+    <!-- Add the hour markers -->
+    <div class="hand hour-hand"></div>
+    <div class="hand minute-hand"></div>
+    <div class="hand second-hand"></div>
+  </div>
+</div>
     <section id="about">
       <h1>A propos de moi</h1>
       <p>Je suis Lakbir Elmadani, un étudiant en génie électrique. Je suis très motivé pour apprendre de nouvelles choses et relever des défis dans ma carrière en tant qu'étudiant ingénieur. Mon ambition est de devenir un ingénieur électrique expérimenté et de contribuer à résoudre les problèmes énergétiques mondiaux à l'avenir. Je suis curieux de nature et j'aime explorer de nouvelles technologies et concepts. Actuellement, je suis à la recherche d'un stage professionnel pour acquérir de l'expérience pratique et développer mes compétences en tant qu'étudiant ingénieur. Je suis convaincu que mes connaissances théoriques et mes compétences techniques me permettront de relever les défis de l'industrie de l'énergie dans l'avenir.</p>
@@ -211,6 +255,16 @@ margin-right: auto;
      </form>
     </section>
  <script>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ////////////////////////////////
         let darkMode = false;
   const button = document.querySelector("#dark-mode-btn");
   const icon = document.querySelector("#icon");
@@ -243,10 +297,83 @@ margin-right: auto;
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+	
+	
+	
+	//////////////////////////clock
+	  "use strict";
+    const cx = 100, cy = 100;  // Radius
+    const _clockstyle = "width: " + (2 * cx) + "px;  height: " + (2 * cy) + "px;"
+      + "border: 7px solid #282828; background: #585858;"
+      + "border-radius: 50%; margin: 50px;"
+      + "box-shadow: -4px -4px 10px rgba(67,67,67,0.5), inset 4px 4px 10px rgba(0,0,0,0.5),"
+      + "inset -4px -4px 10px rgba(67,67,67,0.5), 4px 4px 10px rgba(0,0,0,0.3);"
+
+    sidiv("", _clockstyle)
+    let c = canvas2D({ width: px(2 * cx), height: px(2 * cy) })
+    c.ctx.lineCap = "round"
+    unselectBase()
+
+    // Paint anything radial
+    function tick(color, width, angle, length, innerlength = 0) {
+      function ls(length) { return length * Math.sin(angle / 180.0 * Math.PI) }
+      function lc(length) { return -length * Math.cos(angle / 180.0 * Math.PI) }
+      c.setLineType(width, color)
+      c.line(cx + ls(innerlength), cy + lc(innerlength), cx + ls(length), cy + lc(length))
+    }
+
+    // Draw clock
+    function drawClock() {
+      c.clear()
+      // Draw ticks
+      for (let i = 0; i < 360; i += 30)
+        if ((i % 90) == 0) tick("#1df52f", 5, i, 88, 70)
+        else tick("#bdbdcb", 3, i, 88, 75)
+
+      // draw hands
+      let t = new Date();  // get time
+      tick("#61afff", 5, t.getHours() * 30, 50)  // hour
+      tick("#71afff", 2, t.getMinutes() * 6, 70)  // min
+      tick("#ee791a", 2, t.getSeconds() * 6, 80)  // s
+
+      // drwa center
+      c.setFillStyle("#4d4b63")
+      c.circle(cx, cy, 10, { fill: true })
+    }
+    drawClock()
+    setInterval(drawClock, 1000)
+  
+	
     </script>
 	 <footer>
       <p>Copyright © 2023 Lakbir Elmadani</p>
     </footer>
+	<!-- Add the JavaScript -->
+<script>
+const secondHand = document.querySelector('.second-hand');
+const minuteHand = document.querySelector('.minute-hand');
+const hourHand = document.querySelector('.hour-hand');
+
+function setDate() {
+  const now = new Date();
+
+  const seconds = now.getSeconds();
+  const secondsDegrees = ((seconds / 60) * 360) + 90;
+  secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+
+  const minutes = now.getMinutes();
+  const minutesDegrees = ((minutes / 60) * 360) + ((seconds/60)*6) + 90;
+  minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
+
+  const hours = now.getHours();
+  const hoursDegrees = ((hours / 12) * 360) + ((minutes/60)*30) + 90;
+  hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+}
+
+setInterval(setDate, 1000);
+
+setDate();
+</script>
   </body>
 
 
