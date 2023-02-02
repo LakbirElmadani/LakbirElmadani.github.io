@@ -109,8 +109,8 @@ margin-right: auto;
     }
 	
 	.clock {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 20px solid #333;
   margin: 50px auto;
