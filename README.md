@@ -162,7 +162,7 @@ margin-right: auto;
         </ul>
       </nav>
     </header>
-	<img src="https://media.licdn.com/dms/image/D4E03AQHBx7UuGxxiUw/profile-displayphoto-shrink_400_400/0/1669068581473?e=1680134400&v=beta&t=U5Kq6ldmngFnaTwSFH_I4D8XWeu0YeuuBSm68H0TIOU" width="300" height="260" alt="your image" style="position: absolute; top: 100px; left: 1px;">
+	<img src="https://media.licdn.com/dms/image/D4E03AQHBx7UuGxxiUw/profile-displayphoto-shrink_400_400/0/1669068581473?e=1680134400&v=beta&t=U5Kq6ldmngFnaTwSFH_I4D8XWeu0YeuuBSm68H0TIOU" width="200" height="200" alt="your image" style="position: absolute; top: 150px; left: 30px;">
 	<!-- Add the clock element -->
 <div class="clock">
   <div class="clock-face">
