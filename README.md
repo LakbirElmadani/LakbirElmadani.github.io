@@ -109,9 +109,9 @@ margin-right: auto;
     }
 	
 	.clock {
-  width: 200px;
-  height: 200px;
-  border-radius: 25%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   border: 20px solid #333;
   margin: 50px auto;
   position: relative;
@@ -143,6 +143,7 @@ margin-right: auto;
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+/*changer la position de mon imge */
 
    </style>
    
@@ -150,6 +151,7 @@ margin-right: auto;
    <button onclick="topFunction()" id="myBtn" title="Go to top">vers le haut</button>
    <button id="dark-mode-btn">
   <img src="https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_moon-512.png" id="icon" alt="Dark mode toggle icon">
+
 </button>
     <header>
       <nav>
@@ -160,6 +162,7 @@ margin-right: auto;
         </ul>
       </nav>
     </header>
+	<img src="https://media.licdn.com/dms/image/D4E03AQHBx7UuGxxiUw/profile-displayphoto-shrink_400_400/0/1669068581473?e=1680134400&v=beta&t=U5Kq6ldmngFnaTwSFH_I4D8XWeu0YeuuBSm68H0TIOU" width="300" height="260" alt="your image" style="position: absolute; top: 100px; left: 1px;">
 	<!-- Add the clock element -->
 <div class="clock">
   <div class="clock-face">
@@ -167,6 +170,9 @@ margin-right: auto;
     <div class="hand hour-hand"></div>
     <div class="hand minute-hand"></div>
     <div class="hand second-hand"></div>
+	<div style="float:right;">
+ 
+</div>
   </div>
 </div>
     <section id="about">
@@ -240,7 +246,7 @@ margin-right: auto;
            <img src="https://substance.etsmtl.ca//wp-content/uploads/2015/09/schema-THSeAF1.jpg" class="image">
 	  </div>
 	  	 <div>
-	  <h2>Optimisation de la performance de la machine asynchrone via la commande vectorielle</h2>
+	  <h3>Optimisation de la performance de la machine asynchrone via la commande vectorielle</h3>
         <p>Dans ce projet, j'ai étudié la commande de machine asynchrone en utilisant un onduleur autonome. Tout d'abord, j'ai effectué la modélisation de la machine asynchrone en régime transitoire, ce qui m'a permis de comprendre les caractéristiques dynamiques de la machine. J'ai utilisé des techniques de simulation pour visualiser les différents comportements de la machine en fonction de différents paramètres.
 
 Ensuite, j'ai implémenté la commande vectorielle pour commander la machine asynchrone. La commande vectorielle est une méthode de commande de moteur qui permet d'optimiser les performances de la machine en utilisant des algorithmes de contrôle avancés. Cette technique permet de contrôler la vitesse et le couple du moteur en temps réel, ce qui est essentiel pour garantir une performance optimale de la machine.
