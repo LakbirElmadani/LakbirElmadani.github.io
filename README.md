@@ -109,13 +109,13 @@ margin-right: auto;
     }
 	
 	.clock {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 20px solid #333;
   margin: 50px auto;
   position: relative;
-  left: 500;
+  left: 400;
   top: 0;
   padding: 20px;
   box-shadow: 
@@ -143,15 +143,13 @@ margin-right: auto;
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
-/*changer la position de mon imge */
 
    </style>
    
   <body>
    <button onclick="topFunction()" id="myBtn" title="Go to top">vers le haut</button>
    <button id="dark-mode-btn">
-
-
+  <img src="https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_moon-512.png" id="icon" alt="Dark mode toggle icon">
 </button>
     <header>
       <nav>
@@ -162,7 +160,6 @@ margin-right: auto;
         </ul>
       </nav>
     </header>
-	<img src="https://media.licdn.com/dms/image/D4E03AQHBx7UuGxxiUw/profile-displayphoto-shrink_400_400/0/1669068581473?e=1680134400&v=beta&t=U5Kq6ldmngFnaTwSFH_I4D8XWeu0YeuuBSm68H0TIOU" width="200" height="200" alt="your image" style="position: absolute; top: 270px; left: 100px;">
 	<!-- Add the clock element -->
 <div class="clock">
   <div class="clock-face">
@@ -170,9 +167,6 @@ margin-right: auto;
     <div class="hand hour-hand"></div>
     <div class="hand minute-hand"></div>
     <div class="hand second-hand"></div>
-	<div style="float:right;">
- 
-</div>
   </div>
 </div>
     <section id="about">
