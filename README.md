@@ -150,7 +150,7 @@ margin-right: auto;
   <body>
    <button onclick="topFunction()" id="myBtn" title="Go to top">vers le haut</button>
    <button id="dark-mode-btn">
-  <img src="https://cdn4.iconfinder.com/data/icons/other-elements-rounded-outline/24/outline_moon-512.png" id="icon" alt="Dark mode toggle icon">
+
 
 </button>
     <header>
